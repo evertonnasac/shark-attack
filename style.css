@@ -1,0 +1,74 @@
+img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+#shark-img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.frame{
+    position: relative;
+    margin: 0 auto;
+    width: 750px;
+    height: 500px;
+    background-color: burlywood;
+    animation: animaraS 1.s infinite linear;
+    overflow: hidden;
+    background-image: linear-gradient(#1E90FF, #ADD8E6);
+    border-bottom: 5px solid #00FFFF 	;
+ 
+}
+.barco{
+    bottom: 0px;
+    position: absolute;
+    transform: rotateY(180deg);
+    transition: bottom ease-in-out 0.4s;
+}
+
+.shark{
+    bottom: -10px;
+    position: absolute;
+    transform: rotateY(180deg);
+    animation: animar 2.2s infinite linear;
+  
+}
+
+
+.nuvens{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    animation: nuven 15s infinite linear;
+}
+
+
+
+@keyframes animar{
+   from{
+    right: -80px;
+   }
+   to{
+    right: 750px;
+   }
+}
+
+@keyframes nuven {
+    from {
+        left: 710px;
+    }
+    to{
+        left: -300px;
+    }
+    
+}
+
+@keyframes naufragio {
+    to{
+        bottom: -80px;
+    }
+}
