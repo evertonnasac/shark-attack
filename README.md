@@ -1,5 +1,8 @@
 # shark-attack
 ## Game simples desenvolvido com HTML, CSS e Javascript
-Link: https://evertonnasac.github.io/shark-attack/
+
+Pressione qualquer tecla para pular o obstáculo: o TUBARÃO
 
 ![gif](gif-game.gif)
+
+* Link: https://evertonnasac.github.io/shark-attack/
